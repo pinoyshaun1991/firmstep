@@ -12,7 +12,9 @@ This framework for me also helped me to enforce PSR-1 and PSR-2 standards when c
 
 I have used jQuery.validate() libarary to validate form requirements also stripped tags to stop harmul SQL injection going into the database. 
 
-There are magic methods in place for example the Set and Get methods in the Models, to reassure validation for the correct data types. 
+There are magic methods in place for example the Set and Get methods in the Models, to reassure validation for the correct data types.
+
+Unit tests have been used here to test the Model property validation.
 
 Database Info
 -----------------
