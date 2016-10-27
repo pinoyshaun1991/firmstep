@@ -3,7 +3,9 @@ Queue App
 
 How to use
 ------------
-1). To view the application go to /firmstep/public/queue
+1). Unzip the firmstep.zip file.
+
+2). Once unzipped, go to view the application go to /firmstep/public/queue
 
 I find that with Zend 2, I have learnt how to use certain design patterns such as MVC and method chaining, I have used this modern framework in one of my previous companies and found it interesting how you could create different factories through service locators.
 This framework for me also helped me to enforce PSR-1 and PSR-2 standards when creating method names.
