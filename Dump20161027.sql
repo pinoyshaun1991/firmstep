@@ -22,8 +22,6 @@
 CREATE SCHEMA `queues` DEFAULT CHARACTER SET utf8 ;
 
 DROP TABLE IF EXISTS `customers`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `customers` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Customer ID.',
   `type` varchar(50) NOT NULL DEFAULT 'Anonymous' COMMENT 'Type of customer',
