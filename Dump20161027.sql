@@ -19,6 +19,8 @@
 -- Table structure for table `customers`
 --
 
+CREATE SCHEMA `queues` DEFAULT CHARACTER SET utf8 ;
+
 DROP TABLE IF EXISTS `customers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
